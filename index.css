@@ -41,6 +41,10 @@ p {
   color: #42f8ff;
 }
 
+.rest {
+  margin: 0px 10px;
+}
+
 .header {
   position: fixed;
   top: 0;
