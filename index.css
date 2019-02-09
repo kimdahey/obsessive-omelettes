@@ -1,0 +1,115 @@
+/* Feel free to edit CSS of body if you'd like. We provide you the light gray background color and font family in the body styling */
+body {
+  font-family: "Indie Flower", "Helvetica Neue",Helvetica,Arial,sans-serif;
+  margin: 0;
+  background-color: #113f00;
+  text-shadow: 0 0 20px #f5ffef;
+  text-align: center;
+  margin-top: 100px;
+}
+
+img {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 15px;
+	max-width: 600px;
+	/* image styling */
+	border: 5px solid #0e5e00;
+	border-radius: .7%;
+	box-shadow: 0 0 3px #ddd;
+
+}
+
+h1 {
+  color: #ff3b00;
+}
+
+h2 {
+  color: #ffa500;
+}
+
+h3 {
+  color: #e8da19;
+}
+
+h4 {
+  color: #05b50b;
+}
+
+p {
+  color: #42f8ff;
+}
+
+.header {
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  z-index: 100;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #20a309;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header span {
+  color: #ffeb59;
+  padding: 20px 0px;
+  margin-left: 20px;
+  font-size: 40px;
+  font-weight: 900;
+  font-family: "Major Mono Display", "Helvetica Neue",Helvetica,Arial,sans-serif;
+  
+}
+
+h1 span {
+  padding: 20px 0px;
+  margin-left: 20px;
+  font-size: 40px;
+  font-weight: 900;
+  font-family: "Major Mono Display", "Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+
+h2 span {
+  color: white;
+  font-family: "Major Mono Display", "Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+
+.navbar {
+  margin-right: 20px;
+
+}
+
+.nav {
+  font-size: 25px;
+  margin: 0px 5px;
+  padding: 5px 15px;
+  border-radius: 40%;
+  overflow: hidden;
+  background-color: #ffeb59;
+  color: #0e5e00;
+}
+
+#first:hover {
+  color: #fffad8;
+  background-color: #ff3b00;
+}
+
+#second:hover {
+  color: #fffad8;
+  background-color: #0c9cfc;
+}
+
+#triangle {
+  text-align: left;
+  margin-left: 400px;
+}
+
+#square {
+  text-align: right;
+  margin-right: 400px;
+}
