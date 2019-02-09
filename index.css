@@ -114,16 +114,15 @@ h2 span {
   margin-right: 400px;
 }
 
-@media all and (max-width: 1000px) {
+@media all and (max-width: 950px) {
   body {
     margin-top: 0;
   }
 
   .header {
     position: relative;
-    flex-wrap: wrap;
     justify-content: center;
-    align-items: flex-start;
+    flex-direction: column;
     margin-left: 0;
   }
 
