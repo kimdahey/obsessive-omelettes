@@ -114,7 +114,7 @@ h2 span {
   margin-right: 400px;
 }
 
-@media all and (max-width: 950px) {
+@media screen and (max-width: 950px) {
   body {
     margin-top: 0;
   }
@@ -123,12 +123,13 @@ h2 span {
     position: relative;
     justify-content: center;
     flex-direction: column;
+    flex-wrap: wrap;
     margin-left: 0;
+    padding-bottom: 30px;
   }
 
   .navbar {
     margin-right: 0;
-    padding-bottom: 30px;
   }
 
   #triangle {
